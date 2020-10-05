@@ -11,7 +11,7 @@ const Cards = (props) => {
   }
   return !props.isLoading ? (
     props.actors.map((item) => (
-      <div key={item.char_id} className="col-xs-12 col-sm-6 col-md-4">
+      <div key={item.char_id} className="col-xs-12 col-sm-6 col-md-4 my-5">
         <div
           className="image-flip"
           onTouchStart={() => this.classNameList.toggle("hover")}

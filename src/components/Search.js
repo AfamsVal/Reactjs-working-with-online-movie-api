@@ -13,7 +13,7 @@ const Search = (props) => {
         <input
           type="text"
           className="form-control text-center font-weight-bold"
-          placeholder="Search for a name..."
+          placeholder="Search for a character..."
           autoFocus
           value={name}
           onChange={inputHandle}
