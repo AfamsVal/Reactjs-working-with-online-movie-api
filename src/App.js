@@ -9,8 +9,8 @@ import ContactUs from "./components/ContactUs";
 function App() {
   return (
     <section>
-      <Navbar />
       <Router>
+        <Navbar />
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route exact path="/about" component={About} />
