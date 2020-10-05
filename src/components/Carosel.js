@@ -5,7 +5,7 @@ import image3 from "../images/c.jpg";
 const CaroselComponent = () => {
   return (
     <header>
-      <div id="demo" className="carousel slide bg-danger" data-ride="carousel">
+      <div id="demo" className="carousel slide" data-ride="carousel">
         <ul className="carousel-indicators">
           <li data-target="#demo" data-slide-to="0" className="active"></li>
           <li data-target="#demo" data-slide-to="1"></li>
