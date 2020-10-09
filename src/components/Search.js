@@ -14,7 +14,7 @@ const Search = (props) => {
           type="text"
           className="form-control text-center font-weight-bold"
           placeholder="Search for a character..."
-          autoFocus
+          // autoFocus
           value={name}
           onChange={inputHandle}
         />
