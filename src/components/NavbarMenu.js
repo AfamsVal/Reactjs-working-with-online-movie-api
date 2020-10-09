@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
-import { LinkContainer } from "react-router-bootstrap";
-import { Nav, Navbar, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
+// import { NavLink, Link } from "react-router-dom";
+// import { LinkContainer } from "react-router-bootstrap";
+// import { Nav, Navbar, Container } from "react-bootstrap";
 
 const NavbarMenu = () => {
   const [state, setState] = useState({
@@ -45,7 +46,7 @@ const NavbarMenu = () => {
         id="navbarNavAltMarkup"
         onClick={toggleNavbar}
       >
-        <ul class="navbar-nav ">
+        <ul className="navbar-nav ">
           <li className="nav-item mr-4">
             <Link className="nav-link" to="/">
               Home
