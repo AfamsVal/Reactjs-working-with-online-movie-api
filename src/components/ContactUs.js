@@ -29,7 +29,7 @@ const ContactUs = () => {
                       name="name"
                       className="form-control"
                     />
-                    <label for="name" className="">
+                    <label htmlFor="name" className="">
                       Your name
                     </label>
                   </div>
@@ -43,7 +43,7 @@ const ContactUs = () => {
                       name="email"
                       className="form-control"
                     />
-                    <label for="email" className="">
+                    <label htmlFor="email" className="">
                       Your email
                     </label>
                   </div>
@@ -59,7 +59,7 @@ const ContactUs = () => {
                       name="subject"
                       className="form-control"
                     />
-                    <label for="subject" className="">
+                    <label htmlFor="subject" className="">
                       Subject
                     </label>
                   </div>
@@ -76,7 +76,7 @@ const ContactUs = () => {
                       rows="2"
                       className="form-control md-textarea"
                     ></textarea>
-                    <label for="message">Your message</label>
+                    <label htmlFor="message">Your message</label>
                   </div>
                 </div>
               </div>
