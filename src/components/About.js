@@ -1,9 +1,9 @@
-import React from "react";
-import valImage from "../images/val.jpg";
+import React from "react"
+import valImage from "../images/val.jpg"
 
 const About = () => {
   return (
-    <div className="aboutus-section">
+    <div className="aboutus-section mt-4">
       <div className="container">
         <div className="row">
           <div className="col-md-3 col-sm-6 col-xs-12">
@@ -20,7 +20,7 @@ const About = () => {
                 bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
               </p>
               <button
-                className="aboutus-more btn-outline-success"
+                className="aboutus-more btn-outline-secondary"
                 style={{ outline: "none" }}
               >
                 read more
@@ -84,7 +84,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

@@ -185,14 +185,14 @@ section .section-title {
 
 a:hover,
 a:active {
-  color: #15d43e;
+  color: #007b5e;
   text-decoration: none;
   outline: 0;
 }
 .aboutus-more {
-  border: 1px solid #007b5e;
+  border: 1px solid #414242;
   border-radius: 25px;
-  color: #007b5e;
+  color: #666;
   display: inline-block;
   font-size: 18px;
   font-weight: 700;
@@ -306,6 +306,9 @@ Breadcrumb
   background-color: #007b5e;
   border: 1px solid #007b5e;
 }
+.text-green {
+  color: #007b5e;
+}
 
 .breadcrumb-arrow .breadcrumb-item a:after,
 .breadcrumb-arrow .breadcrumb-item a:before {
@@ -334,14 +337,13 @@ Breadcrumb
 
 .breadcrumb-arrow .breadcrumb-item a:focus,
 .breadcrumb-arrow li a:hover {
-  background-color: #15d43e;
-  border: 1px solid #15d43e;
-  color: #000;
+  background-color: #095548;
+  border: 1px solid #095548;
 }
 
 .breadcrumb-arrow .breadcrumb-item a:focus:before,
 .breadcrumb-arrow li a:hover:before {
-  border-left-color: #15d43e;
+  border-left-color: #095548;
 }
 
 .breadcrumb-arrow li.active:after,
@@ -383,8 +385,8 @@ dddddddd
 }
 
 .cv-block.info .education.group .organization {
-  background-color: #20c997;
-  padding: 8px 12px;
+  background-color: #007b5e;
+  padding: 6px 18px;
 }
 
 .cv-block.info .group .item {

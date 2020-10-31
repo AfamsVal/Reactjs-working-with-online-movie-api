@@ -54,7 +54,7 @@ const Cards = (props) => {
                   <p className="card-text">
                     <Link
                       to={`character/${item.char_id}`}
-                      className="btn btn-outline-success"
+                      className="btn btn-outline-secondary"
                     >
                       More Detail
                     </Link>

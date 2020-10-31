@@ -7,10 +7,11 @@ import About from "./components/About"
 import ContactUs from "./components/ContactUs"
 import NotFound from "./components/NotFound"
 import MoreDetails from "./components/MoreDetails"
+import Footer from "./components/Footer"
 
 function App() {
   return (
-    <section>
+    <>
       <Router>
         <NavbarMenu />
         <Switch>
@@ -21,7 +22,8 @@ function App() {
           <Route exact path="*" component={NotFound} />
         </Switch>
       </Router>
-    </section>
+      <Footer />
+    </>
   )
 }
 
