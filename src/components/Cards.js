@@ -1,5 +1,6 @@
-import React from "react";
-import loader from "../images/loading.gif";
+import React from "react"
+import loader from "../images/loading.gif"
+import { Link } from "react-router-dom"
 
 const Cards = (props) => {
   if (props.actors.length === 0 && props.isLoading === false) {
@@ -7,11 +8,14 @@ const Cards = (props) => {
       <div className="col-12 font-weight-bold text-danger text-center">
         No Result Found!
       </div>
-    );
+    )
   }
   return !props.isLoading ? (
     props.actors.map((item) => (
-      <div key={item.char_id} className="col-xs-12 col-sm-6 col-md-4 my-5">
+      <div
+        key={item.char_id}
+        className="col-12  col-sm-6 col-md-4 col-lg-3 mb-3"
+      >
         <div
           className="image-flip"
           onTouchStart={() => this.classNameList.toggle("hover")}
@@ -47,7 +51,15 @@ const Cards = (props) => {
                   <p className="card-text">
                     <strong>DOB:</strong>: {item.birthday}
                   </p>
-                  <ul className="list-inline">
+                  <p className="card-text">
+                    <Link
+                      to={`character/${item.char_id}`}
+                      className="btn btn-outline-success"
+                    >
+                      More Detail
+                    </Link>
+                  </p>
+                  {/* <ul className="list-inline">
                     <li className="list-inline-item">
                       <a
                         className="social-icon text-xs-center"
@@ -84,7 +96,7 @@ const Cards = (props) => {
                         <i className="fa fa-google"></i>
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -96,7 +108,7 @@ const Cards = (props) => {
     <div className="col-12 text-center">
       <img className="image-fluid" src={loader} alt="No loader" />
     </div>
-  );
-};
+  )
+}
 
-export default Cards;
+export default Cards
