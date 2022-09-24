@@ -1,5 +1,5 @@
-import React from "react"
-import valImage from "../images/val.jpg"
+import React from "react";
+import valImage from "../images/val.jpg";
 
 const About = () => {
   return (
@@ -84,7 +84,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
